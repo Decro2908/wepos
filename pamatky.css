@@ -1,0 +1,85 @@
+.bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    border: 2px solid black;
+    font-family: fantasy;
+    margin-left: 10px;
+    padding: -30px;
+    background-color: yellow;
+    color: black;
+    text-decoration: underline;
+
+}
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    color:white;
+}
+.mesto{
+    text-decoration: underline;
+}
+.pamatkos{
+    text-align: center;
+    font-family: cursive;
+    margin-top: 50px;
+    object-fit: cover;
+    color:yellow;
+    text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    border: 2px solid white;
+    background-color: #000;
+}
+.veci{
+    margin-left: 400px;
+    color:black;
+    text-shadow:-1px -1px 0 yellow, 1px -1px 0 yellow, -1px 1px 0 yellow, 1px 1px 0 yellow;
+    border: 2px solid black;
+    font-family: fantasy;
+    margin-left: 10px;
+    padding: -30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color: black;
+    margin-right: 10px;
+    background-image: url(back_veci.jpg);
+}
+.pamatkose{
+    margin-top: 30px;
+    border: 2px solid yellow;
+    display: flex;
+    background-color: black;
+    background-image: url(back_veci.jpg);
+}
+.kostelos{
+    margin-left: 50px;
+}
+.faros{
+    margin-left: 150px;
+}
+.kaplos{
+    margin-left: 110px;
+}
+
+.popis{
+    color:yellow;
+    text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    display: inline-flex;
+    text-decoration: underline;
+}
+.kostel{
+    color:yellow;
+    text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    display: inline-flex;
+    margin-left: 10px;
+    text-indent: 100x;
+    margin-right: 200px;
+    text-decoration: underline;
+}
+.kaple{
+    color:yellow;
+    text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    display: inline-flex;
+    margin-left: 320px;
+    text-decoration: underline;
+}
